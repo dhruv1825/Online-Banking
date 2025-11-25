@@ -18,7 +18,6 @@ public class Main {
 
             int choice = readInt(sc); // user menu (reads whole line safely)
 
-            // OPTION 1 : CREATE ACCOUNT
             if (choice == 1) {
                 System.out.print("Enter name: ");
                 String name = sc.nextLine().trim(); // read whole name line
@@ -122,7 +121,7 @@ public class Main {
             try {
                 double v = Double.parseDouble(line);
                 if (v < 0) {
-                    System.out.print("Amount can't be negative. Enter again: ");
+                    System.out.print("Amount can't be negative. Enter again: ");`
                     continue;
                 }
                 return v;
